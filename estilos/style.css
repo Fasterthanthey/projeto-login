@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+
+:root {
+    --cor-1:#CFCCD9;
+    --cor-2:#011C26;
+    --cor-3:#F28705;
+    --cor-4:#F25C05;
+    --cor-5:#8C2703;
+}
+
+.cor-1 {
+    color:#CFCCD9;
+
+}
+.cor-2 {
+    color:#011C26;;
+
+}
+.cor-3 {
+    color:#F28705;
+
+}
+.cor-4 {
+    color:#F25C05;
+
+}
+.cor-5 {
+    color:#8C2703;
+
+}
+
+
+* {
+    font-family: poppins;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px; 
+}
+
+body, html {
+    background-color: antiquewhite;
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+section#login {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    background-color: var(--cor-1);
+    width: 250px;
+    height: 500px;
+    border-radius: 25px;
+
+    border: 1px solid rgba(85, 84, 84, 0.466);
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.39);
+}
+
+section#login > div#imagem {
+    display: block;
+    background: black url(../imagens/predio.jpg) no-repeat right top;
+    background-size: cover;
+    border-radius: 25px 25px 0 0;
+    height: 250px;
+}
+
+section#login > div#formulario {
+    display: block;
+    padding: 20px;
+}
