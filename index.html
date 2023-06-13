@@ -4,9 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/media-query.css">
     <link rel="shortcut icon" href="./imagens/favicon-letra-n.ico" type="image/x-icon">
+
 </head>
 <body>
     <main>
@@ -20,8 +23,34 @@
         <div id="formulario">
 
             <h1>Login</h1>
-
             <p>Seja bem vindo(a) novamento. Faça o login para acessar sua conta e poder fazer as configurações do seu ambiente</p>
+
+            <form action="java.js" method="post" autocomplete="off">
+
+                <div class="campo">
+                    <span>
+                        <img src="/imagens/login.svg" alt="">
+                    </span>
+                    <input type="email" name="email" id="email" min="4" max="20" required>
+                    <label for="nome">Email</label>
+
+                </div>
+                
+                <div class="campo">
+                    <span>
+                        <img src="/imagens/senha.svg" alt="">
+                    </span>
+                    <input type="password" name="senha" id="senha" required min="6" max="10" placeholder=" digite sua senha">
+                    <label for="senha">Senha</label>
+
+                </div>
+
+                <input type="submit" value="Entrar">
+                <a class="botao" href="esqueci.html">Esqueci minha senha</a>
+
+            </form>
+
+        
 
         </div>
 
