@@ -64,6 +64,8 @@ section#login {
 
     border: 1px solid rgba(85, 84, 84, 0.466);
     box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.39);
+
+    transition: width 0.58s, height 0.58s;
 }
 
 section#login > div#imagem {
